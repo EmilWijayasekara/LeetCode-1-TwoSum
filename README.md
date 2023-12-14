@@ -7,6 +7,7 @@ This repository contains my solutions to various LeetCode problems. I use this s
 - **Problem Name** : Two Sum
 - **Problem difficulty** : Easy (51.25%)
 - **Category** : Algorithms
+- **Programming language used** - Java
 
 In this problem we have integer array and target, solution must return indices of the two numbers in array such they add up to _target_ 
 given examples are 
@@ -26,3 +27,5 @@ given examples are
 
 ## Approach Explanation
 In the "Two sum" problem I iterated through the array elements checking if the target value and sum of the elements in the array were equal. This problem can be solved using two arrays. In this problem, we can't add the same number twice to get the target value so the second for loop must avoid used values. 
+
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
