@@ -7,7 +7,7 @@ This repository contains my solutions to various LeetCode problems. I use this s
 - **Problem Name** : Two Sum
 - **Problem difficulty** : Easy (51.25%)
 - **Category** : Algorithms
-- **Programming language used** - Java
+- **Programming language used** - Java ![java logo](https://icons.iconarchive.com/icons/dakirby309/simply-styled/256/Java-icon.png)
 
 In this problem we have integer array and target, solution must return indices of the two numbers in array such they add up to _target_ 
 given examples are 
