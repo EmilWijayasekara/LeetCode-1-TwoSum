@@ -5,7 +5,7 @@ This repository contains my solutions to various LeetCode problems. I use this s
 ## About the problem
 - **Problem Number** : 1
 - **Problem Name** : Two Sum
-- **Problem difficulty** : Easy (51.25%)
+- **Problem difficulty** : Easy (51.25%) `#0969DA`
 - **Category** : Algorithms
 
 In this problem we have integer array and target, solution must return indices of the two numbers in array such they add up to _target_ 
@@ -22,40 +22,7 @@ given examples are
 
 >Example 3:
 >Input: nums = [3,3], target = 6
->Output: [0,1] 
+>Output: [0,1]
 
-
-
-
-
-
-
-
-## Table of Contents
-
-- [About](#about)
-- [Directory Structure](#directory-structure)
-- [Getting Started](#getting-started)
-- [Contributing](#contributing)
-- [Contact](#contact)
-
-## About
-
-LeetCode is a platform for honing coding skills through algorithmic challenges. This repository serves as my coding playground, where I tackle problems of different difficulty levels to enhance my problem-solving abilities.
-
-## Directory Structure
-
-- **Easy**: Solutions to easy-level problems.
-- **Medium**: Solutions to medium-level problems.
-- **Hard**: Solutions to hard-level problems.
-
-Each problem is organized in its respective directory, and the code is accompanied by a brief explanation of the approach.
-
-## Getting Started
-
-To run or test any of the solutions locally, follow these steps:
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/leetcode-practice.git
+## Approach Explanation
+In the "Two sum" problem I iterated through the array elements checking if the target value and sum of the elements in the array were equal. This problem can be solved using two arrays. In this problem, we can't add the same number twice to get the target value so the second for loop must avoid used values. 
