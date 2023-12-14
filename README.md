@@ -8,7 +8,6 @@ This repository contains my solutions to various LeetCode problems. I use this s
 - **Problem difficulty** : Easy (51.25%)
 - **Category** : Algorithms
 - **Programming language used** - Java
-![java logo](https://icons.iconarchive.com/icons/dakirby309/simply-styled/48/Java-icon.png)
 
 In this problem we have integer array and target, solution must return indices of the two numbers in array such they add up to _target_ 
 given examples are 
@@ -27,6 +26,4 @@ given examples are
 >Output: [0,1]
 
 ## Approach Explanation
-In the "Two sum" problem I iterated through the array elements checking if the target value and sum of the elements in the array were equal. This problem can be solved using two arrays. In this problem, we can't add the same number twice to get the target value so the second for loop must avoid used values. 
-
-![java logo](https://icons.iconarchive.com/icons/dakirby309/simply-styled/256/Java-icon.png)
+In the "Two sum" problem I iterated through the array elements checking if the target value and sum of the elements in the array were equal. This problem can be solved using two arrays. In this problem, we can't add the same number twice to get the target value so the second for loop must avoid used values.
