@@ -27,3 +27,5 @@ given examples are
 
 ## Approach Explanation
 In the "Two sum" problem I iterated through the array elements checking if the target value and sum of the elements in the array were equal. This problem can be solved using two arrays. In this problem, we can't add the same number twice to get the target value so the second for loop must avoid used values.
+
+### If you have suggestions for improvement or would like to contribute to this solution, feel free to create a pull request. 🙌😇
